@@ -1,0 +1,17 @@
+<div class="container">
+    <div *ngFor="let row of board" class="row">
+        <ng-container *ngFor="let item of row">
+
+            <div class="cell"
+             [class.cellWhite]="item.Color == 0"
+             [class.cellBlack]="item.Color == 1"
+             [class.cellSelected]="item.isSelected">
+
+                <img *ngIf="item.Unit != null" [src]="GetUnitImage(item)" />
+                <span class="dot" *ngIf="item.isPossibleMove"></span>
+            </div>
+
+        </ng-container>
+
+    </div>
+</div>

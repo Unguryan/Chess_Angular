@@ -1,0 +1,37 @@
+.cell {
+    width: 78px;
+    height: 78px;
+    text-align: center;
+    position: relative;
+}
+
+.cellSelected {
+    background-color: chartreuse !important;
+}
+
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #ff6161;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    left: 35%;
+    top: 35%;
+  }
+
+
+.cell img {
+    width: 70px;
+    position: absolute;
+    left: 6%;
+}
+
+.cellWhite {
+    background-color: azure;
+}
+
+.cellBlack {
+    background-color: green;
+}
