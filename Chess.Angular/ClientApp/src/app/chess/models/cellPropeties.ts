@@ -3,16 +3,6 @@ export enum CellColor {
     Black = 1,
   }
 
-export enum CellType {
-    Empty = 0,
-    Pawn = 1,
-    Rook = 2,
-    Knight = 3,
-    Bishop = 4,
-    Queen = 5,
-    King = 6,
-  }
-
 export enum X_axic {
     A = 1,
     B = 2,
